@@ -6,10 +6,9 @@ function Welcome() {
             {[
                 'dark',
             ].map((variant) => (
-                <Alert key={variant} variant={variant}>
-                    This is a {variant} alert with{' '}
-                    <Alert.Link href="#">an example link</Alert.Link>. Give it a click if
-                    you like.
+                <Alert className="text-center m-3" key={variant} variant={variant}>
+                    Benvenuti in{' '}
+                    <Alert.Link className="text-decoration-none fs-4" href="#">EpiBooks</Alert.Link><span className="fw-bold fs-3"> !!!</span>
                 </Alert>
             ))}
             <div className="text-center">
