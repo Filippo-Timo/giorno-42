@@ -15,7 +15,7 @@ const AllTheBooks = () => {
                                     <Card.Body className="d-flex flex-column justify-content-end">
                                         <Card.Title>{book.title}</Card.Title>
                                         <Card.Text>
-                                            {book.category} | {book.price}
+                                            Category: {book.category} | Price: {book.price} €
                                         </Card.Text>
                                         <Button variant="warning">Add to cart</Button>
                                     </Card.Body>

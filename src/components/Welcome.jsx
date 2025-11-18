@@ -6,9 +6,10 @@ function Welcome() {
             {[
                 'dark',
             ].map((variant) => (
-                <Alert className="text-center m-3" key={variant} variant={variant}>
-                    Benvenuti in{' '}
-                    <Alert.Link className="text-decoration-none fs-4" href="#">EpiBooks</Alert.Link><span className="fw-bold fs-3"> !!!</span>
+                <Alert className="text-center m-3 fs-5" key={variant} variant={variant}>
+                    Sconti {' '}
+                    <Alert.Link className="text-decoration-none fs-4" href="#">fino al 40% </Alert.Link>
+                    dal 20 novembre al 20 dicembre.<span className="fw-bold fs-3"> Affrettati !!!</span>
                 </Alert>
             ))}
             <div className="text-center">
