@@ -13,7 +13,7 @@ function Welcome() {
                 </Alert>
             ))}
             <div className="text-center">
-                <h1>Benvenuti in EpiBooks!</h1>
+                <h1 className="m-0 my-4">Benvenuti in EpiBooks!</h1>
             </div>
         </>
     );

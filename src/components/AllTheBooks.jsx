@@ -4,7 +4,7 @@ import AllBooks from "../assets/horror.json"
 
 const AllTheBooks = () => {
     return (
-        <Container>
+        <Container >
             <Row className="d-flex justify-content-center">
                 {
                     AllBooks.map((book) => {

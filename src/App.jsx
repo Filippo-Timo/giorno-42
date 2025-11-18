@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <div className="d-flex flex-column">
+      <div className="d-flex flex-column bg-secondary">
         <MyNav />
         <Welcome />
         <AllTheBooks />
