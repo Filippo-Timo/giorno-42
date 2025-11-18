@@ -6,6 +6,7 @@ import "./components/MyNav"
 import MyNav from './components/MyNav'
 import MyFooter from './components/MyFooter';
 import Welcome from './components/Welcome';
+import AllTheBooks from './components/AllTheBooks';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <div className="d-flex flex-column">
         <MyNav />
         <Welcome />
+        <AllTheBooks />
         <MyFooter />
       </div>
     </>
