@@ -7,6 +7,9 @@ import MyNav from './components/MyNav'
 import MyFooter from './components/MyFooter';
 import Welcome from './components/Welcome';
 import AllTheBooks from './components/AllTheBooks';
+import SingleBook from './components/SingleBook';
+import BookList from './components/BookList';
+import HorroBooks from "./assets/horror.json"
 
 function App() {
 
@@ -15,7 +18,9 @@ function App() {
       <div className="d-flex flex-column bg-secondary">
         <MyNav />
         <Welcome />
-        <AllTheBooks />
+        {/* <AllTheBooks /> */}
+        {/* <SingleBook n={3} /> */}
+        <BookList AllBooks={HorroBooks} />
         <MyFooter />
       </div>
     </>
