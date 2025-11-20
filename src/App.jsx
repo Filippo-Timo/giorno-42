@@ -10,6 +10,7 @@ import AllTheBooks from './components/AllTheBooks';
 import SingleBook from './components/SingleBook';
 import BookList from './components/BookList';
 import HorroBooks from "./assets/horror.json"
+import SingleComment from './components/SingleComment';
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
         <Welcome />
         {/* <AllTheBooks /> */}
         {/* <SingleBook n={3} /> */}
-        <BookList AllBooks={HorroBooks} />
+        {/* <BookList AllBooks={HorroBooks} /> */}
+        < SingleComment />
         <MyFooter />
       </div>
     </>
